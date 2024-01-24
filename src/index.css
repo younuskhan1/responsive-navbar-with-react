@@ -36,6 +36,13 @@
   margin: 0px 15px;
   font-size: 14px;
   font-weight: 600;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+.links li:hover{
+   background: #D9D2C3;
+   color: #01061D;
+   transition: .3s;
 }
 .navbar .toggle-icon{
   display: none;
@@ -84,6 +91,7 @@
     color: #01061D;
     background: #D9D2C3;
     border-radius: 20px;
+    transition: 0s;
   }
   .navbar .links{
     position: absolute;
