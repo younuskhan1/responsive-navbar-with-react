@@ -1,7 +1,6 @@
 import { useState } from 'react';
-import { Icon } from 'react-icons-kit'
-import {menu} from 'react-icons-kit/feather/menu'
-import {x} from 'react-icons-kit/feather/x'
+import { GiHamburgerMenu } from "react-icons/gi";
+import { RxCross2 } from "react-icons/rx";
 
 const Navbar = () => {
 
@@ -21,7 +20,7 @@ const handleToggle = () =>{
             <li>Contact</li>
          </ul>
          <div className="toggle-icon" onClick={handleToggle}>
-            {toggle?<Icon icon={x} size={28}/> : <Icon icon={menu} size={28}/>}
+            {toggle? <RxCross2 size={28} /> : <GiHamburgerMenu size={28} />}
          </div>
         </nav>
     );
