@@ -32,14 +32,16 @@
   display: flex;
   cursor: pointer;
 }
-.navbar .links li{
+.navbar .links li a{
   margin: 0px 15px;
-  font-size: 14px;
+  font-size: 17px;
   font-weight: 600;
-  padding: 5px 10px;
+  padding: 7px 12px;
   border-radius: 10px;
+  color: #D9D2C3;
+  display: block;
 }
-.links li:hover{
+.links li a:hover{
    background: #D9D2C3;
    color: #01061D;
    transition: .3s;
@@ -67,7 +69,7 @@
     align-items: center;
     opacity: 1;
   }
-  .navbar.expanded .links li{
+  .navbar.expanded .links li a{
     margin: 10px 0px;
     font-size: 20px;
   }
@@ -87,7 +89,7 @@
   .navbar .links{
     display: none;
   }
-  .links li:hover{
+  .links li a:hover{
     color: #01061D;
     background: #D9D2C3;
     border-radius: 20px;
@@ -105,9 +107,9 @@
     opacity: 0;
     transition: 0.5s opacity ease-in-out;
   }
-  .navbar .links li{
+  .navbar .links li a{
     margin: 20px 0px;
-    font-size: 20px;
+    font-size: 17px;
     padding: 10px 20px;
   }
 }

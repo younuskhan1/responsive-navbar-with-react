@@ -14,10 +14,10 @@ const handleToggle = () =>{
         <nav className={toggle? "navbar expanded" : "navbar"}>
          <h2 className="logo">NavBar</h2>
          <ul className="links">
-            <li>Home</li>
-            <li>About</li>
-            <li>Portfolio</li>
-            <li>Contact</li>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Portfolio</a></li>
+            <li><a href="">Contact</a></li>
          </ul>
          <div className="toggle-icon" onClick={handleToggle}>
             {toggle? <RxCross2 size={28} /> : <GiHamburgerMenu size={28} />}
